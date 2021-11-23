@@ -1,0 +1,10 @@
+node_modules
+screenshots/*
+
+data.csv
+data.json
+
+config/database.yml
+
+log/
+tmp/

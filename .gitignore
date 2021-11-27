@@ -5,6 +5,10 @@ data.csv
 data.json
 
 config/database.yml
+config/deploy/*
+config/deploy.rb
+Capfile
+Gemfile*
 
 log/
 tmp/

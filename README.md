@@ -4,11 +4,20 @@ Use Flask API to wrap Facebook data. Grab the wapper of Facebook public pages wi
 
 #### Setup
 
-Before using this scraper API, please export the cookies of your Facebook account and save them to `/tmp/cookies.text`
+Before using this scraper API, please export the cookies of your facebook account and save them to `/tmp/cookies.text`
 
-**Cookies**
+
+##### Cookies
 
 The path to a file containing cookies in Netscape or JSON format. You can extract cookies from your browser after logging into Facebook with an extension like [EditThisCookie (Chrome)](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=en) or [Cookie Quick Manager (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/cookie-quick-manager/). Make sure that you include both the c_user cookie and the xs cookie, you will get an InvalidCookies exception if you don't.
+
+##### Environment Management with Pipenv
+
+Install from Pipfile
+
+```shell
+pipenv install
+```
 
 #### Start and run the script locally
 
